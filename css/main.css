@@ -1,0 +1,300 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	outline: 0px;
+}
+ul, ol{
+	list-style-type: none;
+}
+a{
+	text-decoration: none!important;
+}
+/*************All fonts are here********************/
+@font-face{
+	font-family: bold;
+	src: url(OpenSans-Bold.ttf);
+}
+@font-face {
+    font-family: light;
+    src: url(OpenSans-Light.ttf);
+}
+@font-face {
+    font-family: regular;
+    src: url(OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: semibold;
+    src: url(OpenSans-Semibold.ttf);
+}
+
+
+/****************header part start from here****************/
+.header{
+	background-color: #43B97B;
+	padding: 45px 0px;
+}
+.header ul li{
+	list-style-type: none;
+	display: inline-block;
+}
+.header ul li a{
+	text-decoration: none;
+	padding: 0px 8px;
+	color: #fff;
+	font-size: 16px;
+	font-family: bold;
+	font-weight: normal;
+	text-transform: capitalize;
+}
+.header_icon{
+	text-align: right;
+}
+.header_icon a{
+	color: #43BB7B;
+	font-size: 15px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 50%;
+}
+
+/*************** banner part start from here ****************/
+
+.banner{
+	background-image: url(..//img/banner.jpg);
+	background-repeat: no-repeat;
+	padding: 150px 0px;
+}
+.banner h1{
+	color: #525252;
+	font-size: 34px;
+	font-family: bold;
+	text-transform: uppercase;
+}
+.banner p{
+	color: #6e6c6c;
+	font-family: 16px;
+	font-family: regular;
+	padding: 20px 0px;
+}
+.banner button{
+	color: #525252;
+	font-size: 16px;
+	font-family: semibold;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	border-style: none;
+	border: 1px solid #605F5B;
+	margin-right: 2%;
+}
+.banner button i{
+	padding: 10px;
+}
+/*********************** social network part start here ***********************/
+
+.social{
+	background-color: #F3F3F3;
+	padding: 20px 0px;;
+}
+.social img{
+	margin-left: 25%;
+}
+/**************************  About part start from here  *********************/
+
+.about{
+	background-color: white;
+	padding: 70px 0px;
+}
+.about img{
+	margin-left: 15%;
+}
+.about h1{
+	color: #525151;
+	font-size: 34px;
+	font-family: bold;
+	text-transform: uppercase;
+}
+.about p{
+	color: #767272;
+	font-size: 16px;
+	font-family: regular;
+	padding: 20px 0px 30px 0px;
+}
+.about ul li{
+	padding: 10px;
+}
+.about ul li a{
+	color: #6d6c6c;
+	font-size: 16px;
+	font-family: regular;
+	padding: 20px;
+}
+.about ul li i{
+	color: #6d6c6c;
+}
+.about button{
+	color: #525252;
+	font-size: 16px;
+	font-family: semibold;
+	text-transform: uppercase;
+	padding: 10px 20px;
+	border-style: none;
+	border: 1px solid #525252;
+	margin-top: 10%;
+}
+.about button i{
+	color: #525252;
+	padding: 10px;
+}
+.about span{
+	color: #636363;
+	font-size: 16px;
+	font-family: regular;
+	padding-left: 15px;
+}
+
+/********************* Features part start from here ******************/
+
+.feature{
+	background-color: #41C07D;
+	padding: 90px 0px;
+	color: white;
+}
+.feature i{
+	color: white;
+	font-size: 25px;
+	padding: 20px;
+	margin-left: 40%;
+}
+.feature h1{
+	font-size: 20px;
+	font-family: bold;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+.feature p{
+	font-size: 16px;
+	font-family: regular;
+	font-weight: normal;
+	text-align: center;
+}
+
+/************************ Testimonial part start from here ********************/
+
+.testimonial{
+	background-color: white;
+	padding: 70px 0px;
+}
+.testimonial p{
+	color: #767272;
+	font-size: 18px;
+	font-family: regular;
+	font-weight: normal;
+	text-align: center;
+	line-height: 1.5;
+}
+.testimonial h3{
+	color: #4b4848;
+	font-size: 16px;
+	font-family: semibold;
+	font-weight: normal;
+	text-align: center;
+	text-transform: uppercase;
+}
+.testimonial h4{
+	color: #6f6d6d;
+	font-size: 14px;
+	font-family: regular;
+	font-weight: normal;
+	text-align: center;
+	text-transform: lowercase;
+	padding-bottom: 30px;
+}
+.testimonial span{
+	margin-left: 44%;
+}
+.testimonial i{
+	color: #6f6d6d;
+	border: 2px solid #6f6d6d;
+	padding: 10px;
+	border-radius: 50%;
+	background-color: white;
+	margin-left: 2%;
+}
+/*********************** Contact part start from here ************/
+
+.contact{
+	background-color: #42BD7C;
+	padding: 80px 0px; 
+}
+.contact h2{
+	color: #fff;
+	font-size: 20px;
+	font-family: semibold;
+	text-align: center;
+	font-weight: normal;
+	padding-bottom: 25px;
+}
+.contact input{
+	border-radius: 4px;
+    border-style: none;
+    color: #42bd7c;
+    font-family: regular;
+    font-size: 14px;
+    height: 35px;
+    padding: 7px;
+    width: 300px;
+	margin-left: 8%;
+}
+.contact span i{
+	color: #42bd7c;
+	font-size: 16px;
+	margin-left: -8%;
+}
+
+/******************** Footer part start from here ****************/
+
+.footer{
+	background-color: #FAF9F9;
+	padding: 80px 0px;
+}
+.footer span{
+	margin-left: 38%;
+}
+.footer i{
+	color: #DDDDDD;
+	font-size: 40px;
+    padding: 25px;
+}
+.footer p{
+	color: #6f6d6d;
+	font-size: 12px;
+	font-family: semibold;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
